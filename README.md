@@ -16,7 +16,7 @@ During BeCode training. The exercise took around 4 days.
 
 In this project, we used pyTorch. To install it, first we create an environnement in code and install with:
 `conda create -n pytorch python=3.7 pandas numpy notebook ipykernel pytorch=1.7 torchvision torchaudio cudatoolkit=11.0 -c pytorch`
-The reason why we used this way for installing pytorch is because we have a mac and other ways didn't work. If you have another OS you can check in [this website](https://pytorch.org/get-started/locally/)how to install.
+The reason why we used this way for installing pytorch is because we have a mac and other ways didn't work. If you have another OS you can check in [this website](https://pytorch.org/get-started/locally/) how to install.
 
 We also install ray.tune to optimize our hyperparameter. You just need to write this code in your terminal `pip install 'ray[tune]'`.
 
